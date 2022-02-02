@@ -1,0 +1,475 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+body {
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    color: #505962;
+    padding-right: 0px;
+}
+
+
+/* Navbar */
+
+.navbar {
+    transition: all 0.4s;
+}
+
+.navbar .nav-link {
+    color: #fff;
+    text-shadow: .1rem .1rem .8rem black;
+    font-size: 1rem;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: green;
+    text-decoration: none;
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+    text-shadow: .1rem .1rem .8rem black;
+    font-size: 1.5rem;
+}
+
+
+/* Change navbar styling on scroll */
+
+.navbar.active {
+    background: #fff;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+    color: #555;
+    text-shadow: .1rem .1rem .8rem white;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+    color: green;
+    text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+    color: #555;
+    text-shadow: .1rem .1rem .8rem white;
+}
+
+
+/* Change navbar styling on small viewports */
+
+@media (max-width: 991.98px) {
+    .navbar {
+        background: #fff;
+    }
+    .navbar .navbar-brand,
+    .navbar .nav-link {
+        color: #555;
+    }
+}
+
+.text-small {
+    font-size: 0.9rem !important;
+}
+
+
+/* Slider */
+
+.banner1 {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/banner1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.banner2 {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/banner2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.banner3 {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/banner4.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 38%;
+    text-transform: uppercase;
+    left: 0;
+    right: 0;
+}
+
+.carousel-caption h5 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1rem;
+}
+
+.carousel-caption p {
+    font-size: 1.5rem;
+    text-shadow: .1rem .1rem .5rem black;
+    padding-bottom: 1.6rem;
+}
+
+.btn-lg {
+    border-width: medium;
+    border-radius: 0;
+    font-size: 1.1rem;
+    box-shadow: .1rem .1rem .8rem black;
+    text-shadow: .1rem .1rem .8rem black;
+}
+
+.row {
+    padding: 100px;
+}
+
+.col .card {
+    border: transparent;
+    box-shadow: .1rem .1rem .8rem black;
+    padding: 20px;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.card-footer a {
+    width: 100%;
+    border-width: medium;
+    background: black;
+    border-radius: 0;
+    font-size: 1.1rem;
+    box-shadow: .1rem .1rem .8rem black;
+    text-shadow: .1rem .1rem .8rem black;
+}
+
+.contact ul li {
+    padding-top: 13px;
+    text-align: start;
+}
+
+.contact ul li i {
+    font-size: 22px;
+}
+
+.links ul li {
+    padding-top: 10px;
+}
+
+.text-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.text-link:hover {
+    text-decoration: none;
+    color: #555;
+}
+
+.social {
+    margin-top: -70px;
+}
+
+.bodyText {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    min-height: 74.5vh;
+    background: #dfe4ea;
+}
+
+.bodyText ul li {
+    list-style: none;
+    display: inline-block;
+    padding-top: 20px;
+}
+
+.text1 {
+    padding-bottom: 15px;
+}
+
+.bodyText ul li a {
+    background: #1e90ff;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-decoration: none;
+    width: 100px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.bodyText ul li a:hover {
+    background: #3742fa;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-decoration: none;
+    width: 100px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.adminFooter {
+    padding-top: 50px;
+}
+
+
+/* Login */
+
+.bodyText1 {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    min-height: 74.5vh;
+    background: #dfe4ea;
+}
+
+.bodyText2 {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    min-height: 94vh;
+    background: #dfe4ea;
+}
+
+.bodyText3 {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    min-height: 108vh;
+    background: #dfe4ea;
+}
+
+.container1 {
+    box-shadow: .1rem .1rem .8rem black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -61%);
+    position: absolute;
+    box-sizing: border-box;
+    padding: 45px 25px;
+}
+
+.container2 {
+    box-shadow: .1rem .1rem .8rem black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -46%);
+    position: absolute;
+    box-sizing: border-box;
+    padding: 55px 25px;
+}
+
+.container3 {
+    box-shadow: .1rem .1rem .8rem black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%, -40%);
+    position: absolute;
+    box-sizing: border-box;
+    padding: 25px 25px;
+}
+
+.sign-in-form ul li {
+    list-style: none;
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 15px;
+}
+
+.input-field {
+    width: 300px;
+    height: 55px;
+    background-color: #fff;
+    border: 2px solid #fff;
+    margin: 10px 0;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 15% 85%;
+}
+
+.input-field i {
+    text-align: center;
+    line-height: 55px;
+    color: gray;
+    font-size: 1.1rem;
+}
+
+.input-field input {
+    background: transparent;
+    outline: none;
+    border: none;
+    line-height: 1;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: gray;
+}
+
+.input-field input::placeholder {
+    color: gray;
+    font-weight: 500;
+}
+
+.input-field select {
+    border-style: none;
+}
+
+.btn1 {
+    background: #1e90ff;
+    border-radius: 10px;
+    padding: 10px;
+    border-style: none;
+    text-decoration: none;
+    width: 100px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 2px;
+}
+
+.btn1:hover {
+    background: #3742fa;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    border-style: none;
+    width: 100px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.linkSingnUp {
+    text-decoration: none;
+    font-size: 1rem;
+    line-height: 20px;
+    color: #000;
+    padding-top: 15px;
+}
+
+.linkSingnUp:hover {
+    color: crimson;
+    margin-top: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.success-text {
+    color: #2ed573;
+    font-weight: bold;
+}
+
+.error-text {
+    color: #ff4757;
+    font-weight: bold;
+}
+
+
+/* pending page */
+
+.bodyTextpending {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    min-height: 74.5vh;
+    background: #dfe4ea;
+}
+
+.bodyTextpending p {
+    font-size: 22px;
+    padding-bottom: 8px;
+}
+
+.check {
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.text1 {
+    padding-bottom: 5px;
+}
+
+.bodyTextpending .logoutfornow {
+    background: #1e90ff;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-decoration: none;
+    width: 100px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.bodyTextpending .logoutfornow:hover {
+    background: #3742fa;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-decoration: none;
+    width: 100px;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+/* employee signup */
+
+.input-field1 {
+    width: 300px;
+    height: 55px;
+    background-color: #fff;
+    border: 2px solid #fff;
+    margin: 10px 0;
+    border-radius: 10px;
+    display: grid;
+}
+
+.input-field1 label {
+    text-align: start;
+    color: gray;
+    font-weight: 500;
+}
+
+.input-field1 input {
+    background: transparent;
+    outline: none;
+    border: none;
+    line-height: 1;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: gray;
+}
+
+.input-field1 select {
+    border-style: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: gray;
+}
+
+.input-field1 select option {
+    border-style: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: gray;
+}
