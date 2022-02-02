@@ -3,7 +3,7 @@
         <div class="sidebar-brand">
             <div class="brand-flex">
                 <img src="../images/logo2.png" alt="img">
-                <h2>Nipolac</h2>
+                <h2>Rainbow Paints</h2>
                 <div class="brand-icons">
                     <a href="profile.php"><span class="las la-user-circle"></span></a>
                 </div>

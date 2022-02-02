@@ -3,7 +3,7 @@
 <html lang="en" dir="Itr">
 <head>
 	<meta charset="utf-8">
-	<title>Vendor Login - Form</title>
+	<title>Rainbow Paints - Vendor Login - Form</title>
     <link rel="stylesheet" href="../css/home-style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
@@ -12,7 +12,7 @@
 <body>
     <header>
     <nav class="navbar navbar-expand-lg bg-dark py-3">
-        <div class="container"><a href="../index.php" class="navbar-brand text-uppercase font-weight-bold">Paint House</a>
+        <div class="container"><a href="../index.php" class="navbar-brand text-uppercase font-weight-bold">Rainbow Paints</a>
             <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
             
             <div id="navbarSupportedContent" class="collapse navbar-collapse">
@@ -158,7 +158,7 @@
 
     <!-- Copyright -->
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-        © 2020 All Copyright reserved. Paint House - Developed By - Thimira Madusanka
+        © 2020 All Copyright reserved. Rainbow Paints - Developed By - Thimira Madusanka
     </div>
     <!-- Copyright -->
 </footer>

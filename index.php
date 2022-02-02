@@ -2,7 +2,7 @@
 <html lang="en" dir="Itr">
 <head>
 	<meta charset="utf-8">
-	<title>Paint Company Management System</title>
+	<title>Rainbow Paints</title>
     <link rel="stylesheet" href="css/home-style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
@@ -23,7 +23,7 @@
 <body>
     <header>
     <nav class="navbar navbar-expand-lg fixed-top py-3">
-        <div class="container"><a href="index.php" class="navbar-brand text-uppercase font-weight-bold">Paint House</a>
+        <div class="container"><a href="index.php" class="navbar-brand text-uppercase font-weight-bold">Rainbow Paints</a>
             <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
             
             <div id="navbarSupportedContent" class="collapse navbar-collapse">
@@ -44,21 +44,21 @@
         <div class="carousel-inner">
             <div class="carousel-item banner1 active">
                 <div class="carousel-caption text-center">
-                        <h5>Welcome to Paint House</h5>
+                        <h5>Welcome to Rainbow Paints</h5>
                         <p>If yo Wish to Join With Us</p>
                         <a href="employees.php" class="btn btn-outline-light btn-lg">Apply Now</a>
                     </div>
             </div>
             <div class="carousel-item banner2">
                 <div class="carousel-caption text-center">
-                        <h5>Welcome to Paint House</h5>
+                        <h5>Welcome to Rainbow Paints</h5>
                         <p>If yo Wish to be a Vendor for Us</p>
                         <a href="vendorCompany.php" class="btn btn-outline-light btn-lg">Apply Now</a>
                     </div>
             </div>
             <div class="carousel-item banner3">
                 <div class="carousel-caption text-center">
-                        <h5>Welcome to Paint House</h5>
+                        <h5>Welcome to Rainbow Paints</h5>
                         <p>If yo Wish to Buy Products from Us</p>
                         <a href="customer.php" class="btn btn-outline-light btn-lg">Apply Now</a>
                     </div>
@@ -144,7 +144,7 @@
         <div class="row">
         <!--Grid column-->
         <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Paint House</h5>
+            <h5 class="text-uppercase">Rainbow Paints</h5>
 
             <p>
             We are the leading paint company in Sri Lanka. We produce various branded paints for you. Mainly wood paints, wall paints, floor paint and steal paints like varous kinds of paints produced by our company.
@@ -158,7 +158,7 @@
             <h5 class="text-uppercase">Contact Us</h5>
             <ul class="list-unstyled mb-0">
                 <li>
-                    <i class="fas fa-envelope-square"></i> - painthouse@gmail.com
+                    <i class="fas fa-envelope-square"></i> - rainbowpaints@gmail.com
                 </li>
                 <li>
                     <i class="fas fa-phone-square-alt"></i> - 0382245712 / 0714515263
@@ -247,7 +247,7 @@
 
     <!-- Copyright -->
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-        © 2020 All Copyright reserved. Paint House - Developed By - Thimira Madusanka
+        © 2020 All Copyright reserved. Rainbow Paints - Developed By - Thimira Madusanka
     </div>
     <!-- Copyright -->
 </footer>
